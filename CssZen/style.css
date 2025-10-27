@@ -30,12 +30,13 @@ Make sure you incorporate C.R.A.P into your design.
 /*I am placing this default command in every block so the IDE does not highlight the command for being empty*/
 /*Delete this command from the blocks when you put your own commands in*/
   html {
-    position:relative;
+    position: relative;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
   body { 
-    position:relative;
+    position: relative;
+    background-image: url('images-zen/sunset-wallpaper.jpg')
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
@@ -101,7 +102,8 @@ Make sure you incorporate C.R.A.P into your design.
   /*You can get more specific by styling the <p> tags or the <h3> tags or a specific <p> tag with a command like*/
   /*suppary p would style every <p> inside of summary */
   header, .summary, .preamble, .explanation, .participation, .benefits, .requirements, footer{
-    position:relative;
+    position: relative;
+    border: yellow 3px solid;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
@@ -114,7 +116,7 @@ Make sure you incorporate C.R.A.P into your design.
     width:image width;
     height:image height;
     */
-    position:relative;
+    position: relative;
   }
 
   .intro {
@@ -122,6 +124,19 @@ Make sure you incorporate C.R.A.P into your design.
   }
 
   .main-supporting {
-    border: red 3px solid;
+    border: black 3px solid;
   }
+
+  .design-selection {
+    border: black 3px solid;
+  }
+
+  .design-archives {
+    border: black 3px solid;
+  }
+
+  .zen-resources {
+    border: black 3px solid;
+  }
+
 
