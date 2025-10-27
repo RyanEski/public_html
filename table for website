@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <a link rel = "stylesheet" href="mycss.css"></a>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<table>
+    <tr>
+        <th>25-26 Green/White School Schedule</th>
+    <tr>
+        <th>Block One</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>Green</Green>
+        <th>White</th>
+    <tr>
+        <th>Block One</th>
+        <th>7:40</th>
+        <th>9:00</th>
+        <th>Study Hall</th>
+        <th>Honors Algebra II</th>
+    <tr>
+        <th>Block Two</th>
+        <th>9:05</th>
+        <th>10:25</th>
+        <th>Computer Programming II</th>
+        <th>Computer Programming II</th>
+    <tr>
+        <th>Flex/Advisory</th>
+        <th>10:30</th>
+        <th>11:00</th>
+        <th>Flex/Advisory</th>
+        <th>Flex/Advisory</th>
+    <tr>
+        <th>A Lunch</th>
+        <th>11:05</th>
+        <th>11:35</th>
+    <tr>
+        <th>Block Three</th>
+        <th>11:35</th>
+        <th>1:05</th>
+        <th>CP Chemistry</th>
+        <th>Band</th>
+    <tr>
+        <th>Block Four</th>
+        <th>1:10</th>
+        <th>2:30</th>
+        <th>CP English 11</th>
+        <th>CP US History</th>
+    </tr>
+
+    </tr>
+    </tr>
+    </tr>
+    </tr>
+    </tr>
+    </tr>
+</table>

@@ -1,0 +1,26 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    font-size: 30;
+}
+
+td {
+    font-size: 20;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.image {
+
+    background-image: url(images/Untitled.jpeg);
+    width: 475;
+    height: 450;
+    margin: auto;
+
+}

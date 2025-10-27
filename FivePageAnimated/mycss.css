@@ -1,0 +1,106 @@
+.border {
+    color: 1px solid red
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+body {
+    background-color: #D2B48C;
+}
+
+header {
+    animation: rotate 500ms linear 2;
+    margin-left: 18px;
+}
+
+@keyframes rotate {
+    from {
+       transform: rotate(0deg);
+    }
+    to {
+       transform: rotate(360deg);
+    }
+} 
+
+.footerright {
+    float: right;
+}
+
+.footerleft {
+    float: left;
+}
+
+.Trollface {
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-top: 600px;
+    margin-right: -404px;
+}
+
+p {
+    float: left;
+    font-size: 25 px;
+}
+
+.home_button {
+    float: right;
+}
+
+.musicnotes {
+    height: 200px;
+    width: 200px;
+    float: right;
+    
+}
+
+.stupidchild {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-left: 10px;
+}
+
+.Sidebar {
+    float: right;
+    align-self: center;
+    height: 600px;
+    width: 400px;
+    margin-left: 4px;
+}
+
+.main {
+    width: 1840px;
+}
+.main p {
+    width: 700px;
+    height: 100px;
+    border: black 5px solid;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    flex-wrap: wrap;         /* Wraps to next line on smaller screens */
+    gap: 10px;               /* Space between buttons */
+    padding: 20px;
+  }
+  
+  /* Button styling */
+  .button-link, .home_button {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border: black 3px solid;
+    border-radius: 4px;
+    font-family: sans-serif;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button-link:hover, .home_button:hover {
+    background-color: grey;
+  }

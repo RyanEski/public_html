@@ -1,0 +1,24 @@
+.border {
+    color: 1px solid red
+}
+
+.header {
+    width: 1846px;
+    height: 500px;
+    background-image: url(HeaderImage.jpg)
+}
+
+.footer {
+    margin-top: 100px;
+
+}
+
+.footerright{
+    float: right;
+}
+
+.footerleft{
+    float:left;
+}
+
+
