@@ -5,8 +5,8 @@
 /* Not all elements are defined in this file, so you'll most likely want to refer to the index.html as well. */
 
 /************************************************** 
-Student Name:
-Date of Project:
+Student Name: Ryan Eskildsen
+Date of Project: 10/27/25
 
 Start Mr. Reynolds' Directions:
 Make sure you list your color palette colors in the comment below.
@@ -22,7 +22,7 @@ You need some kind of special effect, JavaScript or CSS Animation.
 Make sure you incorporate C.R.A.P into your design. 
 ***************************************************/
 
-/*  My Primary color for my palette is: ??????????, my secondary colors are:  */
+/*  My Primary color for my palette is: #c40000, my secondary colors are: #fb0002 */
 
 /*every CSS block needs a comment, if you don't need it delete it*/
 /*all HTML tags are by default position: relative*/
@@ -116,3 +116,12 @@ Make sure you incorporate C.R.A.P into your design.
     */
     position:relative;
   }
+
+  .intro {
+    border: black 3px solid;
+  }
+
+  .main-supporting {
+    border: red 3px solid;
+  }
+
