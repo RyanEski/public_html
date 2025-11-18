@@ -5,8 +5,8 @@
 /* Not all elements are defined in this file, so you'll most likely want to refer to the index.html as well. */
 
 /************************************************** 
-Student Name: Ryan Eskildsen
-Date of Project: 10/27/25
+Student Name:
+Date of Project:
 
 Start Mr. Reynolds' Directions:
 Make sure you list your color palette colors in the comment below.
@@ -22,32 +22,31 @@ You need some kind of special effect, JavaScript or CSS Animation.
 Make sure you incorporate C.R.A.P into your design. 
 ***************************************************/
 
-/*  My Primary color for my palette is: #c40000, my secondary colors are: #fb0002 */
+/*  My Primary color for my palette is: ??????????, my secondary colors are:  */
 
 /*every CSS block needs a comment, if you don't need it delete it*/
 /*all HTML tags are by default position: relative*/
 /*their position is relative to the other tags around them*/
 /*I am placing this default command in every block so the IDE does not highlight the command for being empty*/
 /*Delete this command from the blocks when you put your own commands in*/
-  html {
-    position: relative;
+html {
+    position:relative;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
   body { 
-    position: relative;
+    position:relative;
     text-align: center;
-    background-image: url('images-zen/wallpaper.jpg');
-
+    background-image: url('images/wallpaper.jpg');
+    margin: auto;
     color: white;
-    
+    white-space: normal;
   }
   
-
   /*every CSS block needs a comment, if you don't need it delete it*/
   /*will style all your a tags*/
   a:link { 
-      color: white;
+      color: #B7A5DF;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
@@ -62,8 +61,6 @@ Make sure you incorporate C.R.A.P into your design.
     position:relative;
   }
   
-  /*every CSS block needs a comment, if you don't need it delete it*/
-  /*this tag puts a dotted underline under text*/
   abbr {
       /*border-bottom: none;*/
     position:relative;
@@ -73,7 +70,6 @@ Make sure you incorporate C.R.A.P into your design.
   /*surrounds entire site except exta divs*/
   .page-wrapper { 
     position:relative;
-    margin: auto;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
@@ -85,45 +81,57 @@ Make sure you incorporate C.R.A.P into your design.
   /*every CSS block needs a comment, if you don't need it delete it*/
   header {
     position:relative;
-  }
+    margin: auto;
+    height: 210px;
+    width: 500px;
+    }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
   header h1 { 
     position:relative;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
   header h2 { 
-    position:relative;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
-  /*surrounds .explanation .participation .benefits .requirements footer*/
+  /*surrounds .explanation .pa  order: 2;
+  flex: 1; /* takes less width */
+  
   div.main {
     position:relative;
   }
-  
+
   /*every CSS block needs a comment, if you don't need it delete it*/
   /*These are all your major sub-elements, you can give a whole group of classes commands by grouping them separated by , */
   /*You can get more specific by styling the <p> tags or the <h3> tags or a specific <p> tag with a command like*/
   /*suppary p would style every <p> inside of summary */
-  header, .summary, .preamble, .explanation, .participation, .benefits, .requirements, footer {
-    position: relative;
-    height: 350px;
+  header, .summary, .preamble, .explanation, .participation, .benefits, .requirements, footer{
+    position:relative;
     background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black background */
     border: 3px solid #c40000;
-    display: block;        /* your red accent border */
+    display: block;                       /* your red accent border */
     border-radius: 10px;                  /* rounded corners */
-    padding: 20px;
-    width: 40%;                           /* allows them to float side by side */           
-    box-shadow: 0 0 15px #fb0002;         /* glowing red shadow */
+    padding: 20px;                          /* allows them to float side by side */           
+    box-shadow: 0 0 15px #fb0002;        /* glowing red shadow */
+    flex: auto;
+
+      /* Fade-in effect */
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
   }
   
   /*every CSS block needs a comment, if you don't need it delete it*/
   /*There are 6 extras at the very bottom of the page*/
   .extra1 {
-  
     /*code below will place element at top of page*/
     /*
     position:absolute;
@@ -131,63 +139,87 @@ Make sure you incorporate C.R.A.P into your design.
     width:image width;
     height:image height;
     */
-    position: relative;
-  }
-
-  .intro {
-    box-shadow: 0 0 15px #fb0002; 
-  }
+    position:relative;
+  }  
 
   .main-supporting {
-    box-shadow: 0 0 15px #fb0002; 
+    box-shadow: 0 0 15px black;
+        /* Fade-in effect */
+        opacity: 0;
+        animation: fadeIn 5s ease-in forwards; 
   }
 
   .design-selection {
-    box-shadow: 0 0 15px #fb0002; 
+    box-shadow: 0 0 15px black;
+        /* Fade-in effect */
+        opacity: 0;
+        animation: fadeIn 5s ease-in forwards; 
+    margin: auto;
   }
 
   .design-archives {
-    box-shadow: 0 0 15px #fb0002; 
+    box-shadow: 0 0 15px black;
+        /* Fade-in effect */
+        opacity: 0;
+        animation: fadeIn 5s ease-in forwards;
   }
 
   .zen-resources {
-    border: black 3px solid;
+    box-shadow: 0 0 15px black;
+        /* Fade-in effect */
+        opacity: 0;
+        animation: fadeIn 5s ease-in forwards; 
   }
 
-    /* centers or indents bullet points so they're not stuck on the far left */
-  ul {
-    list-style-position: inside;  /* bullets stay next to text */
-    display: inline-block;        /* allows the list to be centered */
-    text-align: left;             /* keeps text aligned under bullets */
-    margin: 0 auto;               /* centers the entire list block */
-    padding-left: 0;              /* removes browser default padding */
-  }
-
-  .explanation {
-    float: right;
-  }
-
-  .summary {
-    float: left;
+  footer {
+    height: 20px;
+    width: 175px;
+    margin: auto;
   }
 
   .preamble {
     float: right;
+    width: 750px;
+    height: 290px;
   }
-
-  .participation {
-    float: left;
+  .requirements {
+    height: 590px;
+    width: 750px;
+    margin: auto;
   }
 
   .benefits {
+    height: 500px;
+    width: 485px;
+  }
+
+  .participation {
+    height: 500px;
+    width: 485px;
     float: right;
   }
 
-  .requirements {
-    float: left;
-    height: 550px;
+  .explanation {
+    height: 290px;
+    width: 750px;
   }
 
-  footer {
-    text-align: center;
+  .summary {
+    height: 125px;
+    width: 750px;
+    margin: auto;
+  }
+
+  ul {
+    list-style-position: inside;  /* bullets stay next to text */
+    display: inline-block;        /* allows the list to be centered */
+    text-align: center;             /* keeps text aligned under bullets */
+    margin: 0 auto;               /* centers the entire list block */
+    padding-left: 0;
+  }
+
+    /* Fade-in animation */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }

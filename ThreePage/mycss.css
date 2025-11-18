@@ -1,0 +1,63 @@
+body.red {    
+    background-color: red;  /* sets the color of the background for the red page to red */
+    }
+    
+    
+    body.green {
+        background-color: rgb(1, 184, 1);  /* sets the color of the background for the green page to green */
+    }
+    body.blue {
+        background-color: blue; /* sets the color of the background for the blue page to blue */
+    }
+    
+    
+    nav {
+        text-align: center; /* puts the text in the center of the screen */
+    }
+    
+    
+    nav a {
+        color: white; /* makes the navigation text white */
+    }
+    
+    
+    .red-button {
+        color: blue; /* makes the red button blue when on the red page */
+    }
+    
+    
+    .green-button {
+        color: red; /* makes the green button red when on the green page */
+    }
+    
+    
+    .blue-button {
+        color: rgb(1, 184, 1); /* makes the blue button green when on the blue page */
+    }
+    
+    
+    .red-image {
+        margin: auto; /* centers the image */
+        background-image: url(images/red-image.jpg); /* sets the background image */
+        background-attachment: fixed; /* keeps it from moving while scrolling */
+        width: 1450px; /* sets the width of the image */
+        height: 750px; /* sets the height of the image */
+    }
+    
+    
+    .green-image {
+        margin: auto; /* centers the image */
+        background-image: url(images/green-image.jpg); /* sets the background image */
+        background-attachment: fixed; /* keeps it from moving while scrolling */
+        width: 1450px; /* sets the width of the image */
+        height: 750px; /* sets the height of the image */
+    }
+    
+    
+    .blue-image {
+        margin: auto; /* centers the image */
+        background-image: url(images/blue-image.jpg); /* sets the background image */
+        background-attachment: fixed; /* keeps it from moving while scrolling */
+        width: 1080px; /* sets the width of the image */
+        height: 750px; /* sets the height of the image */
+    }
