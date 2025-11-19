@@ -12,11 +12,38 @@
 .nav-link {
     color: #D9E4EE;
 }
+
 .nav-link:hover {
     color: #CCCCCC;
+}
+
+.navbar-nav {
+    color: white;
+    margin: auto;
+}
+
+.nav-item {
+    color: white;
+}
+.row {
+    color: skyblue;
 }
 
 /*style main content area*/
 main {
     background-color: #FDFFFE;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+
+@media screen and (max-width: 600px) {
+    .row {
+      flex: 100%;
+      max-width: 100%;
+    }
 }
